@@ -20,6 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cab3ef4-3eaf-40df-8b0a-a0145544cc29" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jobscrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/scrapperSO.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +49,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.jobscrapper">
     <configuration name="indeed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Pyjobs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -59,6 +63,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/indeed.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="jobscrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pyjobs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jobscrapper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,6 +157,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.jobscrapper" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.save" />
         <item itemvalue="Python.so" />
@@ -165,22 +191,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="745" height="209" key="GridCell.Tab.0.bottom" timestamp="1595480280102">
+    <state width="747" height="207" key="GridCell.Tab.0.bottom" timestamp="1595519484464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595480280102" />
-    <state width="745" height="209" key="GridCell.Tab.0.center" timestamp="1595480280102">
+    <state width="747" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595519484464" />
+    <state width="747" height="207" key="GridCell.Tab.0.center" timestamp="1595519484464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595480280102" />
-    <state width="745" height="209" key="GridCell.Tab.0.left" timestamp="1595480280102">
+    <state width="747" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595519484464" />
+    <state width="747" height="207" key="GridCell.Tab.0.left" timestamp="1595519484463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595480280102" />
-    <state width="745" height="209" key="GridCell.Tab.0.right" timestamp="1595480280102">
+    <state width="747" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595519484463" />
+    <state width="747" height="207" key="GridCell.Tab.0.right" timestamp="1595519484464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595480280102" />
+    <state width="747" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595519484464" />
     <state width="1515" height="260" key="GridCell.Tab.1.bottom" timestamp="1595421685697">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -197,10 +223,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595421685697" />
-    <state x="555" y="57" key="SettingsEditor" timestamp="1595400036085">
+    <state x="555" y="57" key="SettingsEditor" timestamp="1595514787851">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="555" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595400036085" />
+    <state x="555" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1595514787851" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
